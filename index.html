@@ -1,43 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ParadoxFR SMP</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-      background-color: #2c3e50;
-      color: white;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-top: 50px;
-    }
-    p {
-      font-size: 1.2rem;
-      margin: 20px 0;
-    }
-    a {
-      color: #3498db;
-      text-decoration: none;
-      font-size: 1.2rem;
-      padding: 10px 20px;
-      border-radius: 5px;
-      background-color: #34495e;
-      transition: background-color 0.3s;
-    }
-    a:hover {
-      background-color: #1abc9c;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParadoxFR SMP - Rejoignez notre Discord</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Press Start 2P', cursive;
+            background: linear-gradient(45deg, #6A0DAD, #000000); /* Purple to Black gradient */
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-size: 100% 100%;
+            background-position: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-top: 50px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            color: #F1C40F; /* Yellow Minecraft color */
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin: 20px;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+            color: #ecf0f1; /* Light gray for the text */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            background-image: url('https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/img/game_logo.png');
+            background-size: cover;
+            background-position: center;
+            background-blur: 5px; /* Optional: Adding slight blur to background */
+        }
+
+        .logo {
+            max-width: 200px;
+            margin-top: 30px;
+            border: 4px solid #8E44AD; /* Purple border for logo */
+            border-radius: 15px;
+            padding: 10px;
+        }
+
+        .discord-btn {
+            background-color: #7289DA;
+            color: white;
+            font-size: 1.5rem;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: background-color 0.3s;
+            margin-top: 30px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Shadow for the button */
+        }
+
+        .discord-btn:hover {
+            background-color: #5b6eae;
+        }
+
+        /* Optional: Adding cool block effect around the button */
+        .discord-btn:active {
+            transform: scale(0.98);
+        }
+
+        .minecraft-style {
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        /* Adding some Minecraft blocky effect to the text */
+        .blocky-background {
+            background: repeating-linear-gradient(45deg, #8E44AD, #8E44AD 10px, #34495E 10px, #34495E 20px);
+        }
+    </style>
+    <!-- Adding Minecraft-like font -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Welcome to ParadoxFR SMP</h1>
-  <p>Join our community on Discord and start playing!</p>
-  <a href="YOUR_DISCORD_INVITE_LINK_HERE" target="_blank">Join our Discord</a>
+    <div class="container blocky-background">
+        <!-- Logo Section -->
+        <img src="https://cdn.discordapp.com/attachments/1453352878969323551/1457488835351937034/ChatGPT_Image_Jan_4_2026_07_19_22_PM.png?ex=695c2fc1&is=695ade41&hm=e827a8928924dd48ed184dd6e1d169cf80fe6b3b707a9538bdc1c2fdbe243828" alt="ParadoxFR Logo" class="logo">
+
+        <h1 class="minecraft-style">Bienvenue sur ParadoxFR SMP</h1>
+        <p class="minecraft-style">Rejoignez notre serveur Minecraft et notre communauté sur Discord !</p>
+
+        <!-- Discord Button -->
+        <a href="https://discord.gg/YTNwZDZybT" class="discord-btn" target="_blank">Rejoindre notre Discord</a>
+    </div>
 </body>
 </html>
